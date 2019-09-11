@@ -6,13 +6,13 @@ public class Animal {
     //Fields
     private int id;
     private String name;
-    private double whigt;
+    private double weight;
     //Constructors
-    public Animal(String name, double whigt)
+    public Animal(String name, double weight)
     {
         id = ++animalCounter;
         this.name = name;
-        this.whigt = whigt;
+        this.weight = weight;
     }
     //Behaviors
     public void eat()
@@ -24,8 +24,8 @@ public class Animal {
     public String toString()
     {
         return "Id: " + getId() +
-                "\nName: " + getName() +
-                "\nWhigt: " + getWhigt();
+               "\nName: " + getName() +
+               "\nWeight: " + getWeight();
     }
 
     //Getters & Setters
@@ -47,11 +47,11 @@ public class Animal {
         this.name = name;
     }
 
-    public double getWhigt() {
-        return whigt;
+    public double getWeight() {
+        return weight;
     }
 
-    public void setWhigt(double whigt) {
-        this.whigt = whigt;
+    public void setWeight(double weight) {
+        this.weight = weight;
     }
 }
