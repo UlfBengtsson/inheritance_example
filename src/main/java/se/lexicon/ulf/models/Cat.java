@@ -26,6 +26,22 @@ public class Cat extends Animal
         return infoString.toString();
     }
 
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public String getFur() {
+        return fur;
+    }
+
+    public void setFur(String fur) {
+        this.fur = fur;
+    }
+
     @Override
     public void eat()
     {
