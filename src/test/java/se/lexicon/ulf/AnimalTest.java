@@ -100,8 +100,8 @@ public class AnimalTest {
         String result = testAnimal.toString();
 
         //Assert
-        Assert.assertTrue(result.contains(testName));
-        Assert.assertTrue(result.contains(String.valueOf(testWeight)));
+        assertTrue(result.contains(testName));
+        assertTrue(result.contains(String.valueOf(testWeight)));
     }
 
 
